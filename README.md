@@ -49,4 +49,4 @@ Add your own domain name and have it point to the running services (try adding a
 
 ## link to the endpoint URL for my running elastic beanstalk deployment
 
-image-filter-starter-code-dev222222222222222222222.us-east-1.elasticbeanstalk.com
+eslam-project-dev.us-east-1.elasticbeanstalk.com
