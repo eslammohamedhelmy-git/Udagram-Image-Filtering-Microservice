@@ -33,7 +33,7 @@ import { url } from 'inspector';
 
   //! END @TODO1
   app.get( "/filteredimage", async(req:express.Request, res:express.Response) => {
-    let {image_url} = req.query;
+    const {image_url}: {image_url:string} = req.query;
     if (!image_url){
       res.status(400).send('Error: The submitted url is empty');
     } else {
